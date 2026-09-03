@@ -1,0 +1,58 @@
+ h1{
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .box{
+    max-width: 300px;
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    font-weight: bolder;
+    border-radius: 10px;
+    order: 0;
+ }
+
+ .container{
+    max-width: 500px;
+    max-height: 600px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align-content: space-evenly;
+    margin-left: 50px;
+    flex-wrap: wrap;
+ }
+
+ .box1{
+    background: rgb(245, 199, 114);
+    order: 1;
+    flex-grow: 1;
+ }
+
+ .box2{
+     background: rgb(241, 100, 100);
+    order:2;
+ }
+
+ .box3{
+     background: rgb(236, 236, 106);
+    order:3;
+ }
+
+ .box4{
+     background: rgb(180, 240, 89);
+    order:4;
+ }
+
+ .box5{
+     background: rgb(92, 81, 241);
+    order:5;
+ }
+ .box6{
+    background: rgb(161, 64, 231);
+    
+ }
